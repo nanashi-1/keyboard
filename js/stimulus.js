@@ -21,3 +21,7 @@ document.addEventListener('keyup', function (event) {
     let button = document.getElementById(event.key)
     button.style.backgroundColor = "rgb(226, 226, 226)"
 })
+
+function give_coffee(url) {
+    window.location.href = 'https://www.buymeacoffee.com/nanashi1'
+}
