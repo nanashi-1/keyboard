@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.button {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(226, 226, 226);
+  border: 0;
+  border-radius: 1rem;
+  font-size: 16pt;
+  font-weight: 600;
+  margin: 4px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.background-primary {
+  background-color: rgb(37, 37, 37);
+}
+
+.align-child-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.dead {
+  color: rgb(151, 151, 151);
+  background-color: rgb(49, 49, 49);
+}/*# sourceMappingURL=main.css.map */
